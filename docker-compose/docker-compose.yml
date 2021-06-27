@@ -72,7 +72,7 @@ services:
       - app-tier
 
   store-service:
-    image: driver-service:1.0.0
+    image: bhanu564/driver-service
     container_name: driver-service
     restart: always
     ports:
